@@ -30,4 +30,12 @@
     border-color: var(--color-accent);
     border-radius: rem(8);
   }
+
+  &--padding-s {
+    padding: rem(10) rem(16);
+
+    @include laptop {
+      padding: rem(8) rem(14);
+    }
+  }
 }
